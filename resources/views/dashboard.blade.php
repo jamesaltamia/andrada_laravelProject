@@ -10,7 +10,7 @@
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
 
                 <div class="mb-6">
-                    <h3 lass="text-lg font-medium mb-4">Add New Student</h3>
+                    <h3 class="text-lg font-medium mb-4 bg-blue-500" style="text-align: center; font-family: 'Times New Roman', Times, serif;">Add New Student</h3>
                     <form method="POST" action="#">
                         @csrf
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -36,7 +36,7 @@
                             </div>
                         </div>
                         <div class="mt-4">
-                            <button type="submit" class="bg-blue-500 hover:bg-blue-700
+                            <button type="submit" class="bg-blue-500 hover:bg-red-700
                             text-white font-bold py-2 px-4 rounded">
                                 Add Student
                             </button>
@@ -46,12 +46,12 @@
 
                 <!-- Student List Table -->
                 <div class="mt-8">
-                    <h3 class="text-lg font-medium mb-4">Student List</h3>
+                    <h3 class="text-lg font- mb-4 bg-blue-500" style="text-align: center; font-family: 'Times New Roman', Times, serif;">Student List</h3>
                     <table class="min-w-full bg-white border">
                         <thead>
                             <tr>
                                 <th class="py-2 border-b">#</th>
-                                <th class="py-2 border-b">Name</th>
+                                <th class="py-2 border-b">Name</th> 
                                 <th class="py-2 border-b">Email</th>
                                 <th class="py-2 border-b">Phone</th>
                                 <th class="py-2 border-b">Address</th>
@@ -62,16 +62,15 @@
 
                             <tr>
                                 <td class="py-2 border-b px-4">1</td>
-                                <td class="py-2 border-b px-4">John Doe</td>
-                                <td class="py-2 border-b px-4">johndoe@gmai.com</td>
-                                <td class="py-2 border-b px-4">121-3-213-213</td>
-                                <td class="py-2 border-b px-4">123-Main St</td>
+                                <td class="py-2 border-b px-4">Rave Laurenz Altavas</td>
+                                <td class="py-2 border-b px-4">ravepogi123.com</td>
+                                <td class="py-2 border-b px-4">09821012345</td>
+                                <td class="py-2 border-b px-4">Panay</td>
                                 <td class="py-2 border-b px-4">
                                     <a href="#" class="text-blue-500 hover:text-blue-700">Edit</a>
                                     <a href="#" class="text-red-500 hover:text-red-700">Delete</a>
                                 </td>
                             </tr>
-                        </tbody>
                     </table>
                 </div>
               
